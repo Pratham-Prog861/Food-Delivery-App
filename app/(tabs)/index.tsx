@@ -1,4 +1,6 @@
-import { offers, images } from "@/constants";
+import CartButton from "@/components/CartButton";
+import { images, offers } from "@/constants";
+import cn from "clsx";
 import { Fragment } from "react";
 import {
   FlatList,
@@ -9,8 +11,6 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import cn from "clsx";
-import CartButton from "@/components/CartButton";
 
 export default function Index() {
   return (
@@ -82,4 +82,4 @@ export default function Index() {
       />
     </SafeAreaView>
   );
-}
+} 
